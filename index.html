@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VanGogh</title>
+    <link rel="stylesheet" href="src/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body >
+<body class="bg-black text-white">
     <header>
-        <a>Art</a>
-        <nav>
-            <a>Shop</a>
-            <a>History</a>
-            <a>Artist</a>
-            <a>Paintings</a>
-        </nav>
+        <div class="flex items-center justify-between h-16 max-w-7xl mx-auto px-4 font-serif">
+            <a class="font-logo">Art</a>
+            <nav class="flex gap-10 md:flex">
+                <a class="transition hover:text-blue-300 cursor-pointer">Shop</a>
+                <a class="transition hover:text-blue-300 cursor-pointer">History</a>
+                <a class="transition hover:text-blue-300 cursor-pointer">Artist</a>
+                <a class="transition hover:text-blue-300 cursor-pointer">Paintings</a>
+            </nav>
+        </div>
     </header>
 </body>
 
