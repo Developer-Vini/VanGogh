@@ -9,9 +9,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-black text-white">
-    <header>
-        <div class="flex items-center justify-between h-16 max-w-7xl mx-auto px-4 font-serif">
+<body class="bg-black text-white text-2xl">
+    <header class="top-0 fixed w-full h-16 z-50">
+        <div class="flex items-center justify-between h-16 max-w-7xl mx-auto px-4 font-heading">
             <a class="font-logo">Art</a>
             <nav class="flex gap-10 md:flex">
                 <a class="transition hover:text-blue-300 cursor-pointer">Shop</a>
@@ -21,6 +21,12 @@
             </nav>
         </div>
     </header>
+
+    <section id="hero">
+        <div class="absolute top-0">
+            <img class="max-w-full"src="src/assets/image.png" alt="background-image">
+        </div>
+    </section>
 </body>
 
 </html>
