@@ -6,9 +6,11 @@
   --white: #ffffff;
 }
 
+/*
 body {
   overflow: hidden;
 }
+*/
 
 .font-heading {
   font-family: "Playfair Display", serif;
