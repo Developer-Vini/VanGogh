@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth scrollbar-thumb-amber-500">
 
 <head>
     <meta charset="UTF-8">
@@ -19,16 +19,19 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-black text-white text-2xl">
+<body class="bg-black text-white text-2xl ">
     <header class="top-0 fixed w-full h-16 z-50 bg-transparent">
         <div class="flex items-center justify-between h-16 max-w-7xl mx-auto px-4 ">
             <a class="font-heading text-2xl">Art</a>
             <nav class="flex gap-10 md:flex font-logo">
-                <a class="font-heading transition hover:text-blue-300 cursor-pointer font-normal text-[24px]">Shop</a>
+                <a 
+                    href="#hero"
+                class="font-heading transition hover:text-blue-300 cursor-pointer font-normal text-[24px]">Home</a>
                 <a
-                    class="font-heading transition hover:text-blue-300 cursor-pointer font-normal text-[24px]">History</a>
-                <a class="font-heading transition hover:text-blue-300 cursor-pointer font-normal text-[24px]">Artist</a>
+                    href="#history"
+                    class="font-heading transition hover:text-blue-300 cursor-pointer font-normal text-[24px]">The Artist & History</a>
                 <a
+                    href="#paintings"
                     class="font-heading transition hover:text-blue-300 cursor-pointer font-normal text-[24px]">Paintings</a>
             </nav>
         </div>
@@ -78,7 +81,7 @@
         </div>
     </section>
 
-    <section class="relative min-h-full">
+    <section id="history" class="relative min-h-full">
         <div class="absolute inset-0 -z-20">
             <img class="blur-xs h-full object-cover object-center" src="src/assets/section_2.jpg"
                 alt="background-image">
@@ -138,7 +141,7 @@
         </div>
     </section>
 
-    <section class="bg-black px-6 py-20 md:px-12">
+    <section id="paintings" class="bg-black px-6 py-20 md:px-12">
         <div class="max-w-7xl mx-auto mb-12">
             <p class="text-amber-300 text-sm uppercase tracking-[0.3rem]">
                 The collection
