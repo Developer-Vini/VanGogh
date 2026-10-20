@@ -4,8 +4,6 @@
   --brad-color: #ffb904;
   --dark: #0e0e0e;
   --white: #ffffff;
-  --font-logo: "Inter", sans-serif;
-  --font-heading: "Playfair Display", serif;
 }
 
 body {
@@ -18,4 +16,8 @@ body {
 
 .font-logo {
   font-family: "Inter", sans-serif;
+}
+
+.font-space {
+  font-family: "Space Grotesk", sans-serif;
 }
