@@ -16,45 +16,34 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-black text-white text-2xl ">
-    <header class="top-0 fixed w-full h-16 z-50 bg-transparent">
-        <div class="flex items-center justify-between h-16 max-w-7xl mx-auto px-4 ">
-            <a class="font-heading text-2xl">Art</a>
-            <nav class="flex gap-10 md:flex font-logo">
-                <a 
-                    href="#hero"
-                class="font-heading transition hover:text-blue-300 cursor-pointer font-normal text-[24px]">Home</a>
-                <a
-                    href="#history"
-                    class="font-heading transition hover:text-blue-300 cursor-pointer font-normal text-[24px]">The Artist & History</a>
-                <a
-                    href="#paintings"
-                    class="font-heading transition hover:text-blue-300 cursor-pointer font-normal text-[24px]">Paintings</a>
+<body>
+    <header>
+            <a class="logo">Art</a>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#history">The Artist & History</a>
+                <a href="#paintings">Paintings</a>
             </nav>
-        </div>
     </header>
 
-    <section id="hero" class="relative w-full min-h-screen">
-        <div class="absolute top-0 left-0 w-full h-full -z-20 ">
-            <img class="w-full h-full object-cover object-center" src="src/assets/image.png" alt="background-image">
+    <section id="hero" class="">
+        <div class="img-div">
+            <img src="src/assets/image.png" alt="background-image">
         </div>
-        <div
-            class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center, transparent_90%, #000000_25%)] opacity-25">
-        </div>
-        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black via-transparent to-black/60"></div>
+        <div class=""> </div>
+        <div class=""></div>
 
-        <div class="flex flex-col items-center min-h-screen p-28 -translate-x-[22%] translate-y-[9%]">
-            <h1 class="text-8xl text-center font-heading leading-28 tracking-[3px]">
-                <span class="block">Paintings</span>
-                <span class="block">Van Gogh</span>
+        <div class="">
+            <h1 class="">
+                <span class="">Paintings</span>
+                <span class="">Van Gogh</span>
             </h1>
-            <p class="text-2xl leading-[150%] mt-6 font-logo font-normal">Van Gogh is considered the greatest<br>a
+            <p class="">Van Gogh is considered the greatest<br>a
                 leading figure of Post-Impressionism.<br>
                 Some point out in their works the<br>early signs of expressionism</p>
-            <p class="text-[#ffb904] text-2xl font-heading leading-[100%] font-normal -translate-x-37 flex mt-4">Explore
+            <p class="">Explore
                 More</p>
             <div>
                 <div class="relative flex flex-col gap-20 translate-y-12 -translate-x-14">
@@ -81,7 +70,7 @@
         </div>
     </section>
 
-    <section id="history" class="relative min-h-full">
+    <section hidden id="history" class="relative min-h-full">
         <div class="absolute inset-0 -z-20">
             <img class="blur-xs h-full object-cover object-center" src="src/assets/section_2.jpg"
                 alt="background-image">
@@ -141,7 +130,7 @@
         </div>
     </section>
 
-    <section id="paintings" class="bg-black px-6 py-20 md:px-12">
+    <section hidden id="paintings" class="bg-black px-6 py-20 md:px-12">
         <div class="max-w-7xl mx-auto mb-12">
             <p class="text-amber-300 text-sm uppercase tracking-[0.3rem]">
                 The collection

@@ -1,21 +1,32 @@
-@import "tailwindcss";
-
-@theme {
-  --brad-color: #ffb904;
-  --dark: #0e0e0e;
-  --white: #ffffff;
-}
-
-/*
 body {
-  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
-*/
-
-.font-heading {
-  font-family: "Playfair Display", serif;
+header{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+header nav {
+  /*border: 1px solid white;*/
+  display: flex;
+  gap: 30px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
 }
 
+.logo{
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+}
+
+
+
+/*font-family: "Playfair Display", serif;
 .font-logo {
   font-family: "Inter", sans-serif;
 }
@@ -23,3 +34,4 @@ body {
 .font-space {
   font-family: "Space Grotesk", sans-serif;
 }
+*/
